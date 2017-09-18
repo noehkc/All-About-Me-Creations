@@ -1,0 +1,25 @@
+{
+  "name": "all-about-me-creations",
+  "version": "1.0.0",
+  "description": "Website for Elizabeth Ruiz from All About Me Creations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noehkc/All-About-Me-Creations.git"
+  },
+  "author": "Noe Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noehkc/All-About-Me-Creations/issues"
+  },
+  "homepage": "https://github.com/noehkc/All-About-Me-Creations#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
