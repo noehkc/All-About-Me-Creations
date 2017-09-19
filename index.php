@@ -1,5 +1,11 @@
-<?php include("header.php"); ?> <! -- including header -->
-
+<?php 
+/**
+ * The main template file
+ * It puts together the home page if no home.php file exists.
+ *
+ * @package All About Me
+ */
+ get_header(); ?>
 
 <div class="container"><! -- Start Body -->
 
@@ -108,9 +114,6 @@
 </footer>
 
 <script src="https://use.fontawesome.com/2711753928.js"></script>
-<script src="js/jquery.slim.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+    <?php wp_footer(); ?>
 </body>
 </html>

@@ -1,3 +1,12 @@
+<?php
+/**
+ * The header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <! -- Start Body --> comment
+ *
+ * @package All About Me
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +14,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat" rel="stylesheet">
   <title>All About Me Creations: Personalized Gifts, Embroidery in San Antonio</title>
+    <?php wp_head(); ?>    
 </head>
 <body>
 <div class="container">
