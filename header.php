@@ -16,13 +16,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat" rel="stylesheet">
-  <title>All About Me Creations: Personalized Gifts, Embroidery in San Antonio</title>
+  <title><?php wp_title(''); ?></title>
     <?php wp_head(); ?>    
 </head>
 <body>
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"><img class="img-fluid" src="imgs/logo.png"></a>
+  <a class="navbar-brand" href="#"><img class="img-fluid" src="<?php bloginfo('template_url'); ?>/imgs/logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

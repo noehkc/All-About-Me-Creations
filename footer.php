@@ -12,21 +12,8 @@
 			<span class="social-icon rounded-circle"><i class="fa fa-instagram" aria-hidden="true"></i></span>
 			<span class="social-icon rounded-circle"><i class="fa fa-twitter" aria-hidden="true"></i></span>
 			<span class="social-icon rounded-circle"><i class="fa fa-youtube" aria-hidden="true"></i></span>
-			<form>
-			  <div class="form-row">
-				<div class="col">
-				  <input type="text" class="form-control" placeholder="First name">
-				</div>
-				<div class="col">
-				  <input type="text" class="form-control" placeholder="Last name">
-				</div>
-			  </div>
-			  <div class="form-row">
-				<div class="col">
-					<textarea class="form-control" id="message" rows="3" placeholder="Your message" ></textarea>
-				</div>
-			  </div>
-			</form>
+                <br /><br />
+                <?php echo do_shortcode( '[contact-form-7 id="27" title="Contact form 1"]' ); ?>
 			</div>	
 		</div>
 	</div>

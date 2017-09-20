@@ -192,10 +192,6 @@ h2.fancy {
     text-align: center;
     margin: 0 0 25px 0;
     padding: 25px 0 0 0; }
-  .footer .form-row {
-    margin-top: 50px; }
-    .footer .form-row:last-of-type {
-      margin-top: 25px; }
 
 #message {
   padding-bottom: 100px; }
@@ -223,3 +219,6 @@ footer.credit {
     color: #f34949;
     font-size: 30px;
     display: block; }
+
+.contact-form {
+  margin-top: 25px; }
