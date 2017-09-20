@@ -6,7 +6,13 @@
  * @package All About Me
  */
  get_header(); ?>
-
+<div class="container-fluid hero">
+	<h1 class="d-flex justify-content-center">Some Awesome Headline About All About Me Creations</h1>
+	<h3 class="d-flex justify-content-center">Awesome slogan about All About Me Creations</h3>
+</div><! -- End Hero -->
+<div class="container-fluid divider">
+	<div class="ribbon d-flex justify-content-center">Services</div>
+</div>
 <div class="container"><! -- Start Body -->
 
 	<div class="row services">
@@ -36,7 +42,7 @@
 		</div>	
 	</div><! -- End Service Row -->
   <div class="view-more d-flex justify-content-center">
-	<a href="#"> View More </a> <i class="fa fa-plus" aria-hidden="true"></i> 
+	<a href="/services"> View More </a> <i class="fa fa-plus" aria-hidden="true"></i> 
   </div>
 </div>
 
