@@ -50,21 +50,21 @@
 <div class="container portfolio">
 <h2 class="fancy">Our Recent Work</h2>
   <div class="row no-gutters">
-    <div class="col-md-4 portfolio-item"><img class="img-fluid" src="imgs/embroideredsoccertowel.jpg">
+    <div class="col-md-4 portfolio-item"><img class="img-fluid" src="<?php bloginfo('template_url'); ?>/imgs/embroideredsoccertowel.jpg" />
       <div class="caption d-flex align-items-center justify-content-center"><i class="fa fa-search" aria-hidden="true"></i></div>
     </div>
     <div class="col-md-8">
 		<div class="row no-gutters">
-		  <div class="col-md-6 portfolio-item"><img class="img-fluid" src="imgs/texasironhorse.jpg">
+		  <div class="col-md-6 portfolio-item"><img class="img-fluid" src="<?php bloginfo('template_url'); ?>/imgs/texasironhorse.jpg" />
         <div class="caption d-flex align-items-center justify-content-center"><i class="fa fa-search" aria-hidden="true"></i></div>
       </div>
-		  <div class="col-md-6 portfolio-item"><img class="img-fluid" src="imgs/sapdbacktheblueblanket.jpg">
+		  <div class="col-md-6 portfolio-item"><img class="img-fluid" src="<?php bloginfo('template_url'); ?>/imgs/sapdbacktheblueblanket.jpg" />
         <div class="caption d-flex align-items-center justify-content-center"><i class="fa fa-search" aria-hidden="true"></i></div>
       </div>
-     <div class="col-md-6 portfolio-item"><img class="img-fluid" src="imgs/spursblanket.jpg">
+     <div class="col-md-6 portfolio-item"><img class="img-fluid" src="<?php bloginfo('template_url'); ?>/imgs/spursblanket.jpg" />
         <div class="caption d-flex align-items-center justify-content-center"><i class="fa fa-search" aria-hidden="true"></i></div>
       </div>
-      <div class="col-md-6 portfolio-item"><img class="img-fluid" src="imgs/hopeandcourage.jpg">
+      <div class="col-md-6 portfolio-item"><img class="img-fluid" src="<?php bloginfo('template_url'); ?>/imgs/hopeandcourage.jpg" />
         <div class="caption d-flex align-items-center justify-content-center"><i class="fa fa-search" aria-hidden="true"></i></div>
       </div>
 	  </div>

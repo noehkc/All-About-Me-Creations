@@ -58,7 +58,7 @@ a:hover {
     color: #f34949 !important; }
 
 .hero {
-  background: url(../imgs/bg.jpg) no-repeat left center fixed;
+  background: url(imgs/bg.jpg) no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
